@@ -11,7 +11,7 @@ body{
 .test:hover{
     box-shadow: 0px 10px 10px red;
     background-color: black;
-    color: white;
+    color: red;
 }
 .excel-table:hover{
     box-shadow: 0px 10px 10px red;
