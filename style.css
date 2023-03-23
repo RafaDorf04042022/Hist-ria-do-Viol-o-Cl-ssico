@@ -2,12 +2,22 @@ body{
     background-color: #0e0b16;
     color: white;
     text-align: center;
-
+}
+main{
+    background-color: white;
+    display:inline-block;
+    justify-content: center;
+    color: black;
+    width: 506px;
 }
 header{
     background-color: black;
     display:flex;
     box-shadow: 5px 5px 0px #4717f6;
+    height: 70px;
+}
+.center{
+    background-color: white;
 }
 .conteiner{
     display:flex;
@@ -23,7 +33,3 @@ img{
     justify-content: center;
     box-shadow: 5px 5px 0px #4717f6;
 }  
-.test{
-    display: inline-block;
-    justify-content: center;
-}
