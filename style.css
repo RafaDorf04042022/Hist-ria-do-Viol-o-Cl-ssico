@@ -13,7 +13,7 @@ main{
 header{
     background-color: black;
     display:flex;
-    box-shadow: 5px 5px 0px #4717f6;
+    border-bottom: 10px solid #4717f6;
     height: 70px;
 }
 .center{
