@@ -44,3 +44,13 @@ img{
 .controler{
     margin-block: 11px;
 }
+footer{
+    display: flex;
+    background-color: black;
+}
+li{
+    display: flex;
+    font-weight: 200px;
+    font-size: 25px;
+    border-bottom: 1px solid #4717f6;
+}
