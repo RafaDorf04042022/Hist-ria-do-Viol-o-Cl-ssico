@@ -48,9 +48,53 @@ footer{
     display: flex;
     background-color: black;
 }
-li{
-    display: flex;
-    font-weight: 200px;
-    font-size: 25px;
-    border-bottom: 1px solid #4717f6;
+#menu ul {
+    list-style: none;
+    border: 1px solid black;
+}
+
+#menu li {
+    position: relative;
+    border-right: 1px solid #4717f6;
+}
+
+#menu li a {
+    color: white; 
+    text-decoration: none; 
+    padding: 5px 10px; 
+    display: block;
+}
+
+
+#menu li a:hover{
+    text-shadow:0px 0px 5px #fff; 
+}
+
+#menu li  ul{
+    position:absolute; 
+    top:25px; 
+    left:0;
+    background-color: black;
+    display:none;
+}  
+
+#menu li:hover ul, #menu li.hover ul{
+    display:block;
+}
+
+#menu li ul li{
+    border:1px solid #4717f6; 
+    width:150px;
+    }
+#menu{
+   flex: 1; /* isto é para a nav ocupar a largura toda menos a logo */
+   justify-content: center; /* alinha horizontalmente */
+   align-items: center; /* alinha verticalmente */
+}
+#menu, #menu ul{
+   display: flex;
+}
+.enterprise_logo{
+    margin-block: 20px;
+    border-left:2px solid #4717f6;
 }
