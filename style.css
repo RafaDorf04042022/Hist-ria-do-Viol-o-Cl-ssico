@@ -88,9 +88,9 @@ footer{
     width:150px;
     }
 #menu{
-   flex: 1; /* isto é para a nav ocupar a largura toda menos a logo */
-   justify-content: center; /* alinha horizontalmente */
-   align-items: center; /* alinha verticalmente */
+   flex: 1;
+   justify-content: center;
+   align-items: center; 
 }
 #menu, #menu ul{
    display: flex;
