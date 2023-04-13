@@ -15,20 +15,6 @@ main{
     color: black;
     width: 50%;
 }
-.main_one{
-    position: fixed;
-    left: 0.5%;
-    width: 20%;
-    background-color: black;
-    color: white;
-}
-.main_two{
-    position: fixed;
-    right: 0.5%;
-    width: 20%;
-    background-color: black;
-    color: white;
-}
 header{
     background-color: black;
     display:flex;
